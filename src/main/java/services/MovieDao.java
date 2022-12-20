@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class MovieDao implements IDAO<Movie>{
     
-   //create a instance of the Database Connection class
+    //create a instance of the Database Connection class
     private final DatabaseConnection dbConn = new DatabaseConnection();
 
     //every movie when created has a watched count property, so we can see how many times each movie has been watched

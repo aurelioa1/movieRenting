@@ -133,7 +133,7 @@ public class RentMovieController {
         System.out.print("Movie: " + rent.getMovie());
 
 //        keeps track of 1 minute
-//        TimeUnit.MINUTES.sleep(rent.getPeriod());
+//        TimeUnit.MINUTES.sleep(1);
         //this line is for test - purposes to reduce the time spent waiting the rental period expires setting it to 10 seconds
         TimeUnit.SECONDS.sleep(10);
         System.out.println("Movie Returned, Thank you.");

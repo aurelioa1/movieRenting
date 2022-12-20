@@ -1,4 +1,4 @@
-x/*
+/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class DatabaseConnection {
     
-   //this method will handle queries that do not return anything for example Delete, Update and Insert
+    //this method will handle queries that do not return anything for example Delete, Update and Insert
     public void connModify (String query, String message){
         try {
 
